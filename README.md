@@ -1,10 +1,6 @@
 # face-mask-detection
 Build a real-time system to detect whether the person on the webcam is wearing a mask or not. Train the face mask detector by deep learning model using Keras, OpenCV and MobileNet.
 
-########################
-Download the data set from given url and rename the folder to "dataset"
-########################
-
 Abstract
 
 Coronavirus disease 2019 has affected the world seriously. One major protection method for people is to wear masks in public areas. Furthermore, many public service providers require customers to use the service only if they wear masks correctly. However, there are only a few research studies about face mask detection based on image analysis. In this assignment, we propose Face Mask Detection, which is a high-accuracy and efficient face mask detector. The proposed Face Mask Detector is a one-stage detector, which consists of a feature pyramid network to fuse high-level semantic information with multiple feature maps, and a novel context attention module to focus on detecting face masks. Besides, we also implement it with a light-weighted neural network MobileNet for embedded or mobile devices.
